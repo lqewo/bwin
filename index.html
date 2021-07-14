@@ -10,13 +10,14 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/fonts.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<div class="wrapper">
+		<div class="wrapper" id="wrapper">
 			<header class="header">
 				<div class="container">
 					<div class="header__logo">
@@ -50,7 +51,7 @@
 				</div>
 			</header>
 
-			<footer class="footer">
+			<footer class="footer" id="footer">
 				<div class="container">
 					<div class="footer__inner">
 						<div class="footer__item">
@@ -65,7 +66,12 @@
 						</div>
 						<div class="footer__item">
 							<div class="footer__text">
-								<a href="" class="footer__text-link">Правила и условия</a>
+								<a
+									class="footer__text-link"
+									id="footer__text-link"
+									href="#popup"
+									>Правила и условия</a
+								>
 							</div>
 						</div>
 						<div class="footer__item">
@@ -95,7 +101,93 @@
 					</div>
 				</div>
 			</footer>
+			<div id="popup" class="popup">
+				<a class="popup__area" id="popup__closed" href="#header"></a>
+				<div class="popup__body">
+					<div class="popup__inner">
+						<a class="popup__closed" id="popup__closed" href="#footer"
+							><svg
+								width="23"
+								height="23"
+								viewBox="0 0 23 23"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M2 2L21 21"
+									stroke="white"
+									stroke-width="3"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+								<path
+									d="M21 2L2 21"
+									stroke="white"
+									stroke-width="3"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</a>
+						<div class="popup__content popup__scroll" data-mcs-theme="light">
+							<div class="popup__title">Правила и условия</div>
+							<div class="popup__text">
+								Букмекерская контора Bwin предлагает всем своим новым клиентам
+								беспроигрышную сделку. Если ваша первая ставка на сайте
+								букмекера окажется неудачной, компания вернет проигранную сумму
+								в полном объеме в качестве фрибета. Этот бонус можно
+								использовать для заключения нового пари, чистый выигрыш с
+								которого достанется вам. Правда, у кэшбека Bwin есть ограничение
+								– максимальная сумма, которую готов компенсировать букмекер,
+								равна 2000 рублей.
+							</div>
+							<div class="popup__title">Как это работает</div>
+							<div class="popup__text">
+								<ul>
+									<li class="popup__text-list">
+										Вы регистрируетесь на сайте БК Bwin и проходите процедуру
+										идентификации личности
+									</li>
+									<li class="popup__text-list">
+										Делаете первую ставку на реальные деньги
+									</li>
+									<li class="popup__text-list">
+										Если проигрываете, получаете свои деньги назад в течение 30
+										минут с момента расчета
+									</li>
+									<li class="popup__text-list">
+										Условия акции распространяются на все типы пари, кроме
+										«суперкоэффициентов» и «комбо+»
+									</li>
+									<li class="popup__text-list">
+										Полученный фрибет нужно использовать в течение 7 дней с
+										момента его предоставления
+									</li>
+								</ul>
+							</div>
+							<div class="popup__title">Важные правила</div>
+							<div class="popup__text">
+								<ul>
+									<li class="popup__text-list">
+										В акции могут участвовать только новые пользователи или
+										пользователи, которые до этого не делали ни одной ставки
+									</li>
+									<li class="popup__text-list">
+										Фрибет можно использовать только в мобильных приложениях
+										Bwin для iOS и Android
+									</li>
+									<li class="popup__text-list">
+										Один игрок может получить только один фрибет
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+		<script src="/js/jquery-3.6.0.min.js"></script>
+		<script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
 		<script src="/js/script.js"></script>
 	</body>
 </html>
