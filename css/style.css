@@ -32,3 +32,145 @@ h5,
 h6 {
 	margin: 0;
 }
+
+html, body {
+    font-family: "Roboto" ,sans-serif;
+    height: 100%;
+    font-size: 23px;
+    line-height: 130%;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1250px;
+    padding: 0 11px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 100vh;
+    background-image: url(../image/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+.header__logo {
+    display: block;
+    padding: 66px 0 23px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__item {
+    width: 50%;
+}
+
+.header__item-content {
+    margin: 54px 14px 70px;
+}
+
+.header__item-text {
+    text-align: justify;
+    padding-bottom: 70px;
+}
+
+.text-1 , .text-2, .text-3 {
+    font-family: "DrukWideBold", sans-serif;
+}
+
+.text-1 {
+    font-weight: bold;
+    font-size: 115px;
+    line-height: 110px;
+    color: #FFCC00;
+}
+
+.text-2 {
+    font-weight: bold;
+    font-size: 67px;
+    line-height: 76px;
+}
+
+.text-3 {
+    font-weight: bold;
+    font-size: 47.5px;
+    line-height: 47px;
+    padding-bottom: 40px;
+}
+
+.text-4 {
+    font-size: 27px;
+    line-height: 32px;
+}
+
+.text-5 {
+    font-size: 22.5px;
+    line-height: 26px;
+
+}
+
+.header__item-btn {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 21px 33px 16px;
+    color: #000;
+    background-color: #FFCC00;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+}
+
+.header__item-img{
+    max-width: 729px;
+    height: auto;
+}
+
+.footer {
+    background: #0E0E0E;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.mobile-app img {
+    width: 150px;
+    height: 44px;
+}
+
+.app-store {
+    margin-right: 33px;
+}
+
+.footer__text {
+    text-decoration-line: underline;
+    font-size: 23px;
+    line-height: 27px;
+}
+
+.footer__icons {
+    max-height: 50px;
+    width: auto;
+}
+
+.footer__icons img + img{
+    margin-left: 24px;
+}
