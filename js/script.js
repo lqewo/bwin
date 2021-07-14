@@ -14,7 +14,7 @@ b.onclick = function hidden__scroll() {
 
 c.onclick = function show__scroll() {
     document.body.style.overflowY = 'visible';
-    document.body.style.overflowX = 'auto';
+    document.body.style.overflowX = 'visible';
 }
 
 $('.popup__scroll').mCustomScrollbar({

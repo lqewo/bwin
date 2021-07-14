@@ -80,7 +80,6 @@ html, body {
 }
 
 .header__item-text {
-    text-align: justify;
     padding-bottom: 70px;
 }
 
@@ -127,8 +126,8 @@ html, body {
     text-align: center;
     margin: 0 auto;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 35px;
+    line-height: 41px;
 }
 
 .header__item-img{
@@ -148,6 +147,10 @@ html, body {
     justify-content: space-between;
     align-items: center;
     min-height: 100px;
+}
+
+.mobile-app {
+    margin-top: 10px;
 }
 
 .mobile-app img {
@@ -255,3 +258,259 @@ html, body {
 .popup__text-list {
     margin-top: 30px;
 }
+
+@media (max-width: 1486px) {
+    .text-1 {
+        font-size: 90px;
+        line-height: 85px;
+    }
+
+    .text-2 {
+        font-size: 57px;
+        line-height: 48px;
+    }
+
+    .text-3 {
+        font-size: 33.5px;
+        line-height: 38px;
+        padding-bottom: 16px;
+    }
+
+    .text-4 {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .text-5 {
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .header__item-text {
+        padding-bottom: 50px;
+    }
+
+    .header__item-btn {
+        padding: 15px 26px;
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .header__item-img {
+        width: 580px;
+    }
+    .footer__inner {
+        min-height: 75px;
+    }
+
+    .footer__text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .header__item-img {
+        width: 510px;
+    }
+    .header__item {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__item-img {
+        width: 460px;
+    }
+    .header__item {
+        width: 80%;
+    }
+}
+
+@media (max-width: 968px) {
+    .header__logo {
+        padding: 44px 0 18px;
+    }
+
+    .logo__img {
+        width: 122px;
+        height: auto
+    }
+
+    .header__inner {
+        flex-wrap: wrap;
+    }
+    .header__item {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .header__item-img {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 826px) {
+    .footer__icons-img {
+        height: 35px;
+        width: auto;
+    }
+    .mobile-app img {
+        width: 125px;
+        height: auto;
+    }
+
+    .app-store {
+        margin-right: 16px;
+    }
+
+    .app-store {
+        margin-right: 12px;
+    }
+}
+
+@media (max-width: 724px) {
+    .header__item {
+        width: 100%;
+    }
+    .footer__icons-img {
+        height: 28px;
+        width: auto;
+    }
+    .mobile-app img {
+        width: 115px;
+        height: auto;
+    }
+
+    .app-store {
+        margin-right: 12px;
+    }
+
+    .footer__inner {
+        min-height: 100px;
+        flex-wrap: wrap;
+    }
+
+   .item-2 {
+       text-align: center;
+        flex-basis: 700px;
+        order: -1;
+    }
+
+    .popup__closed {
+        right: 33px;
+        top: 20px;
+    }
+
+    .popup__title {
+    font-size: 19px;
+    line-height: 15px;
+    }
+
+    .popup__text {
+        font-size: 16px;
+        padding-bottom: 36px;
+    }
+    .popup__content {
+        max-width: 440px;
+        max-height: 480px;
+        padding: 26px 36px 12px;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .logo__img {
+        width: 86px;
+        height: auto;
+    }
+
+    .header__item-img {
+        width: 289px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-1 {
+        font-size: 53px;
+        line-height: 69px;
+    }
+    .text-2 {
+        font-size: 31.2px;
+        line-height: 31px;
+    }
+    .text-3 {
+        font-size: 22.2px;
+        line-height: 22px;
+    }
+    .text-4 {
+        font-size: 12.5px;
+        line-height: 15px;
+    }
+    .text-5 {
+        font-size: 10.5px;
+        line-height: 12px;
+    }
+
+
+
+    .logo__img {
+        width: 86px;
+        height: auto;
+    }
+
+    .header__item-img {
+        width: 289px;
+        height: auto;
+    }
+
+    .popup__closed {
+        right: 8px;
+        top: 20px;
+    }
+
+    .popup__title {
+    font-size: 15px;
+    line-height: 15px;
+    }
+
+    .popup__text {
+        font-size: 12px;
+    }
+
+    .popup__content {
+        max-width: 278px;
+        max-height: 400px;
+        padding: 26px 36px 12px;
+    }
+
+    .mobile-app img {
+        text-align: center;
+        width: 67.72px;
+        height: 19.89px;
+    }
+
+    .footer__inner {
+        min-height: 70px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .footer__text-link {
+        font-size: 10px;
+        line-height: 12px;
+        }
+
+    .footer__icons-img {
+        height: 21px;
+        width: auto;
+    }
+
+    .footer__icons img + img {
+        margin-left: 10px;
+    }
+    .footer__icons {
+        margin-bottom: -5px;
+    }
+}
+
+
